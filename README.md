@@ -1,3 +1,13 @@
+# My Addition to the Fork
+
+For my projects I have added an ImageBasedVisualServo Message.
+For any target bounding identified by the CV algorithm, the image based visual servo message returns
+
+float64 deviation_x # Deviation from centroid in x direction
+float64 deviation_y # Deviation from centroid in y direction
+float64 bbox_perimeter # Area of the bounding box
+
+
 # px4_msgs
 
 [![GitHub license](https://img.shields.io/github/license/PX4/px4_msgs.svg)](https://github.com/PX4/px4_msg/blob/master/LICENSE) [![Build package](https://github.com/PX4/px4_msgs/workflows/Build%20package/badge.svg)](https://github.com/PX4/px4_msgs/actions)
